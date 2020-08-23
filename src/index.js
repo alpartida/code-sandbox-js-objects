@@ -10,7 +10,9 @@ console.log(weather.temp);
 console.log(weather.humidity);
 console.log(weather.windspeed);
 
-console.log(weather);
+console.log(weather["temp"]);
+console.log(weather["humidity"]);
+console.log(weather["windspeed"]);
 
 let forecast = [
   {
